@@ -362,7 +362,7 @@ canvas{
 
 
 
-@media (min-width: 860px) {
+@media (orientation: landscape) {
   body {
     margin:0;
     grid-template-areas:
