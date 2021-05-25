@@ -313,14 +313,17 @@ margin-top:50px;
 #abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:left;}
 #timelinehorizon{display:block;solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
 #timeline{display: none;}
-#portimages object{width:30vw;}
+#portimages {display: grid;align-items: start; align-self: start;justify-content: left; grid-auto-flow: column;}
+#portimages object{width:30vw; }
 .portpics:hover{
   transform: scale(  3,3);
   z-index:  1;
 }
-#pp1{transition:ease-in-out 250ms;transform-origin: top left;padding:0;}
+#pp1{align-self: start;transition:ease-in-out 250ms;transform-origin: top left;padding:0;}
 #pp2{transition:ease-in-out 250ms;transform-origin: top ;padding:0;}
+#pp2:hover{   transform: scale(  2,2);   z-index:  1; }
 #pp3{transition:ease-in-out 250ms;transform-origin: top right;padding:0;}
+#pp3:hover{transform: scale(  2,2); z-index:  1; }
 #portimages{grid-area:portimages;justify-self: center;padding-bottom: 80vh;}
 
     .nav_toggle_label {
