@@ -173,6 +173,7 @@ body{
 #job{
   grid-area: introjob;
   justify-self:center;
+    text-align: center;
   padding:20px;
   margin:0;
   font-size: 30px;
