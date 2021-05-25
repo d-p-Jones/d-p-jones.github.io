@@ -1,4 +1,5 @@
 <!DOCTYPE doctype html lang= en-gb>
+
 <html>
 <head>
 	<link rel="stylesheet" href='mystyle.css'>
@@ -7,19 +8,19 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 </head>
-<body>
+<body class="grid_container">
 
 <header>	
-	<img class="logo" src="files/Logo.svg">
+	<img class="logo" src="files/logo.svg">
 	<input type="checkbox" class="nav_toggle" id="nav_toggle">
 	<nav>
 			<ul id='NavBar'>
 				<li><a href='#Intro'> Home</a></li>
-				<li><a href="#sub">Background</a></li>
-				<li><a href="#Portfolio">Portfolio</a></li>
-				<li><a href="#Contact">Contact</a></li>
+				<li><a href="#about_me_title">About me</a></li>
+				<li><a href="#portfolio_title">Portfolio</a></li>
+				<li><a href="#contact_title">Contact</a></li>
 			</ul>
 	</nav>
 	<label for="nav_toggle" class="nav_toggle_label">
@@ -28,50 +29,47 @@
 </header>
 
 
+<div id='Intro'></div>
 
-<div id='Intro'>
-	<div id='circle1'>
-		<h1>David Jones</h1>
+		<h1 id="name1">David Jones</h1>
 
-		<h2>Data Analyst </h2>
+		<h2 id="job">Data Analyst </h2>
 
 		<div id="links">
 			<a href="mailto:david.philip.jones@gmail.com"><img src="files/mail.svg"></a>
 			<a href="#Intro"><img src="files/linkin.svg"></a>
 			<a href="mailto:david.philip.jones@gmail.com"> <img src="files/tableau.svg" ></a>
 		</div>
-	</div>
-</div>
-
-<div id='Background'>
-	<h1 id='sub'> Background </h1>
-	<object id='subtxt' data="drawing.svg">
-	</object>	
-	<object id='subtxt1' data="drawing_horizontal.svg">
-	</object>	
-</div>
 
 
-<div id='Portfolio'>
-	<h1 id='sub'> Portfolio </h1>
-	<div id=port_pic_div>	
+
+<div id=abtmebackground></div>
+		<h1 id="about_me_title"> About Me </h1>
+		<p id="about_me_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<img src="seal.jpg" id="abtmeimg">
+		<object id='timeline' data="drawing.svg">
+		</object>	
+		<object id='timelinehorizon' data="drawing_horizontal.svg">
+		</object>	
+
+
+
+
+	<h1 id='portfolio_title'> Portfolio </h1>
+	<div id=portimages>
 	<object id = 'pp1' class='portpics' data=files/dashboard.png></object>	
-
 	<object id = 'pp2'class='portpics' data=files/dashboard.png></object>
 	<object id = 'pp3'class='portpics' data=files/dashboard.png></object>
-		</div>
-</div>
+	</div>
 
+<div id='contact_background'></div>
+	<h1 id='contact_title'> Contact </h1>
+	<div id=contact_images>	
+			<a href="mailto:david.philip.jones@gmail.com"><img src="files/mail.svg"></a>
+			<a href="#Intro"><img src="files/linkin.svg"></a>
+			<a href="mailto:david.philip.jones@gmail.com"> <img src="files/tableau.svg" ></a>
+	</div>
 
-
-
-
-
-
-<!-- count particles -->
-<div class="count-particles">
-  <span class="js-count-particles">--</span> particles
-</div>
 
 <!-- particles.js container -->
 <div id="particles-js"></div>

@@ -9,11 +9,13 @@
 
  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap")
 
-  :root{--background:#72727e;}
+
 
   *, *::before, *:after {box-sizing: border-box;}
 
+
   header {
+    grid-area: header;
     background-color:#72727e;
     text-align: center;
     position:fixed;
@@ -111,18 +113,7 @@ nav a:hover{
     transition: opacity 300ms ease-in-out 250ms;
   }
 
-
-
-
-
 /* End of Nav Styles */
-
-
-
-
-
-
-
 
 
 
@@ -137,200 +128,113 @@ nav a:hover{
 body{
   font-family: 'Roboto', sans-serif;
   display:grid;
-  grid-template-areas: 
-  "header header header"
-  ". Intro  ."
-  ". IntroPic ."
-  "sub sub sub"
-  "port port port"
-  ". blah ."
-  "footer footer footer";
-  grid-template-columns: 5% 90% 5%;
+    grid-template-areas:
+    ".  header      ."
+    ".  particles   ."
+    ".  introtitle  ."
+    ".  introjob    ."
+    ".  introlinks  ."
+    ".  abtmetitle  ."
+    ".  abme1       ."
+    ".  abtmetxt    ."
+    ".  abtmeimg    ."
+    ".  abtmesvg    ."
+    ".  porttitle   ."
+    ".  portimages  ."
+    ".  cntcttitle  ."
+    ".  cntctimages .";
+  grid-template-columns: 3% 94% 3%;
   background-color: #F8F8F8;
   margin:0;
 
 }
 
 
+.grid_container{display:grid;}
 
-#space{grid-area: space; height:80px; width:100%; position:relative;z-index: -1}
+#intro{grid-area: header;}
 
+#name1 {
 
-
-#Intro {
-  display:grid;
-  position: relative;
-  margin-top:auto;
-  margin-bottom: auto;
-  grid-area: Intro;
-  font-size: 20px;
-  padding: 40px;
+  grid-area: introtitle;
+  font-size: 50px;
   text-align: center;
-   
-   color: #72727e;
-   height: 100vh;
-   justify-content: center;
-     align-content: center;
-
-  gap: 4px;
-  grid-auto-flow: row;
-
-}
-#circle1{
-  display:grid;
-   background-color: #F8F8F8dd;
-   border-radius: 50%;
-   width: 80vw;
-   height: 80vw;
-   align-content: center;
-
- }
-
-
-#Intro h1{
-  vertical-align: bottom; 
-  margin:0;
-
-}
-
-#Intro h2{
-  border-top: 2px solid;
-  padding:15px;
-  margin:0;
   color: #72727e;
+  justify-self: center;
+  align-self: end;
+  align-text:bottom;
+  padding:20px;
+  padding-top:35vh;
+  margin:0;
+  border-bottom: 4px solid #72727e;
+  
+}
+
+#job{
+  grid-area: introjob;
+  justify-self:center;
+  padding:20px;
+  margin:0;
+  font-size: 30px;
+  color: #72727e;
+}
+
+#links{
+ 
+
+  grid-area:introlinks;
+  height: 40vh;
+  justify-self: center;
 
 }
 
-#links {
-    justify-content: center;
-     align-content: center;
-  gap: 4px;
-  grid-auto-flow: column;
-}
 #links img{
   height: 4em;
 }
 
+#links:hover{filter(0.1)}
 
-p{background-color: #F8F8F8;}
+#Intro{height:60px;}
+
+#abtmebackground{grid-area: abtmetitle  / abtmetitle / abtmesvg / abtmesvg; background-color: #797a9e;}
+#about_me_title{ grid-area: abtmetitle; justify-self: center; padding-top: 80px; color: #f8f8f8; }
+#about_me_text{ grid-area:abtmetxt;justify-self: right;align-self:  center; padding:40px;color: #f8f8f8; font-size: 25px; text-align:  justify;}
+#abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:center;}
+#timelinehorizon{display: none;}
+#timeline{solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
+
+
+#portfolio_title{grid-area:porttitle;justify-self: center;padding-top: 80px;}
+#portimages{grid-area:portimages;justify-self: center;padding-bottom: 5vh;}
+#portimages object{width:90vw;}
+#pp1,#pp2,#pp3 {padding: 2%;}
+.portpics:hover{
+
+}
+
+
+#contact_background{grid-area: cntcttitle  / cntcttitle / cntctimages / cntctimages; background-color: #625f63;}
+#contact_title{grid-area: cntcttitle;justify-self:center;}
+#contact_images{ grid-area:cntctimages; justify-self: center; align-self: center;}
+#contact_images img{height:4em;margin-bottom: 40px;}
+p{/*background-color: #F8F8F8;*/}
 h1{
 color: #72727e;
 font-size: 50px;
-
 }
 
-/*#IntroPic {
-
-  margin: auto;
-  position: relative;
-margin-left: auto;
-margin-right: auto;
-
-  grid-area: IntroPic;
-  border-radius: 50%;
-  width: 60%;
-  z-index: -1;
-}*/
-#Background {
-  
-  background-color: #797a9e;
-  grid-area: sub;
-}
-#sub {
-  /*grid-area: sub;*/
-  text-align: center;
-  color: #625f63;
-
-  padding-top: 80px;
-  
-  margin:0;
-
-}
-#subtxt{
-  /*grid-area: blah;*/
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 500px;
-  width: 90%;
-
-  
-  
-}
-
-#subtxt1{
-  grid-area: blah;
-    display: none;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 500px;
-  width: 90%;
-
-  /*background-color: #F8F8F8*/
-
-}
-
-
-#Portfolio{ grid-area: port; 
-  display:  grid; 
-justify-content:  center; 
-
-  }
-
-  #port_pics_div{
-    grid-auto-flow:   column;
-    justify-content:  center; 
-  }
-
-.portpics {
-  
-  width:100%;
-  
-  transition: transform 400ms ease-in-out;
-
-  
-}
-
-#pp1{transform-origin: top left}
-#pp2{transform-origin: top }
-#pp3{transform-origin: top right}
-.portpics:hover{
-
-  transform: scale( 3  ,3);
-  z-index:  6;
-
-  
-}
-
-
-canvas{
-  display:block;
-  vertical-align:bottom;
-  /*border-radius: 30%;*/
-  background-color: #F8F8F8;
-}
 
 
 /* ---- particles.js container ---- */
 
 #particles-js {
-
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0);
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  margin: auto;
-  position: fixed;
-  z-index: -2;
+margin-top:50px;
+    grid-area: introtitle / introtitle /introlinks /introlinks;
+  height: 90vh;
+   z-index: -1;
   padding: 0;
-  grid-area: IntroPic;
-  
+  }
 
-}
 
 
 
@@ -364,24 +268,46 @@ canvas{
 
 @media (orientation: landscape) {
   body {
+    display: grid;
     margin:0;
     grid-template-areas:
-    "header header header header"
-    ". Intro IntroPic ."
-    "sub sub sub sub"
-    ". port port ."
-    "footer footer footer footer";
-  grid-template-columns: 5% 30% 60% 5%;
+    "header       header      header      header"
+    "introtitle   introtitle  particles   particles"
+    "introjob     introjob    particles   particles"
+    "introlinks   introlinks  particles   particles"
+    "abtmetitle   abtmetitle  abtmetitle  abtmetitle"
+    "abme1        abtmetxt    abtmetxt    abtmeimg"
+    "abtmesvg     abtmesvg    abtmesvg    abtmesvg"
+    "porttitle    porttitle   porttitle   porttitle"
+    "portimages   portimages  portimages  portimages"
+    "cntcttitle   cntcttitle  cntcttitle  cntcttitle"
+    "cntctimages  cntctimages cntctimages cntctimages";
+  
+  grid-template-columns: 20% 15% 15% 50%;
+  /*grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;*/
   }
-  #particles-js {
-  position: relative;
-  height: 80vh;
-  z-index: 2;
-  }
-  #subtxt1{display: block;}
-  #subtxt{display:none;}
 
 
+#particles-js {
+margin-top:50px;
+    grid-area: particles;
+  height: 90vh;
+   z-index: 0;
+  padding: 0;
+  }
+
+#abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:left;}
+#timelinehorizon{solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
+#timeline{display: none;}
+#portimages object{width:30vw;}
+.portpics:hover{
+  transform: scale(  3,3);
+  z-index:  1;
+}
+#pp1{transition:ease-in-out 250ms;transform-origin: top left;padding:0;}
+#pp2{transition:ease-in-out 250ms;transform-origin: top ;padding:0;}
+#pp3{transition:ease-in-out 250ms;transform-origin: top right;padding:0;}
+#portimages{grid-area:portimages;justify-self: center;padding-bottom: 80vh;}
 
     .nav_toggle_label {
       display:none;
@@ -451,25 +377,6 @@ canvas{
     nav a:hover {
       color:#9893da;
     }
-
-#circle1{
-all:unset;
-
- }
-
-   #port_pics_div{
-    grid-auto-flow:   row;
-    justify-content:  center; 
-  }
-
-.portpics {
-  
-  width:33%;
-  
-  transition: transform 400ms ease-in-out;
-
-  
-}
 
 
 
