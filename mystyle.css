@@ -20,12 +20,13 @@
     text-align: center;
     position:fixed;
     width:100%;
+    height:8%;
     z-index: 999;
     margin:0;
     box-shadow: 0px 1px 10px #625f63;
   }
 
-  .logo{height: 4em; margin-left: 2em;}
+  .logo{height: 100%; margin-left: 2em;}
 
   header h1{color: black; margin:0;}
 
@@ -50,14 +51,14 @@ nav ul{
 
 nav li {
   margin-bottom: 1em;
-  margin-left: 1em;
+  margin-left: 1vw;
 
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2vh;
   /*text-transform: uppercase;*/
   opacity: 0;
 
@@ -89,8 +90,8 @@ nav a:hover{
 .nav_toggle_label span::after {
   display: block;
   background: white;
-  height: 3px;
-  width: 2em;
+  height: 1vw;
+  width: 8vw;
   border-radius: 2px;
   position:relative;
 }
@@ -102,10 +103,10 @@ nav a:hover{
   }
 
   .nav_toggle_label span::before {
-    bottom:7px;
+    bottom:2vw;
   }
     .nav_toggle_label span::after {
-    top:7px;
+    top:2vw;
   }
 
   .nav_toggle:checked ~ nav a {
@@ -194,17 +195,20 @@ body{
 
 #mail_button:hover{
   transform: scale(1.05,1.05); 
-  filter: url(filters.svg#mail_button) contrast(125%)  brightness(1.1);
+  transition: ease-in-out 100ms;
+  /*filter: url(filters.svg#mail_button) contrast(125%)  brightness(1.1)*/;
 }
 
 #linkedin_button:hover{
+  transition: ease-in-out 100ms;
   transform: scale(1.05,1.05); 
-  filter: url(filters.svg#linkedin_button) contrast(125%)  brightness(1.1);
+  /*filter: url(filters.svg#linkedin_button) contrast(125%)  brightness(1.1)*/;
 }
 
 #tableau_button:hover{
+  transition: ease-in-out 100ms;
   transform: scale(1.05,1.05); 
-  filter: url(filters.svg#tableau_button) contrast(125%)  brightness(1.1);
+  /*filter: url(filters.svg#tableau_button) contrast(125%)  brightness(1.1)*/;
 }
 
 
