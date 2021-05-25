@@ -192,7 +192,23 @@ body{
   height: 4em;
 }
 
-#links:hover{filter(0.1)}
+#mail_button:hover{
+  transform: scale(1.05,1.05); 
+  filter: url(filters.svg#mail_button) contrast(125%)  brightness(1.1);
+}
+
+#linkedin_button:hover{
+  transform: scale(1.05,1.05); 
+  filter: url(filters.svg#linkedin_button) contrast(125%)  brightness(1.1);
+}
+
+#tableau_button:hover{
+  transform: scale(1.05,1.05); 
+  filter: url(filters.svg#tableau_button) contrast(125%)  brightness(1.1);
+}
+
+
+
 
 #Intro{height:60px;}
 
@@ -214,7 +230,7 @@ body{
 
 
 #contact_background{grid-area: cntcttitle  / cntcttitle / cntctimages / cntctimages; background-color: #625f63;}
-#contact_title{grid-area: cntcttitle;justify-self:center;}
+#contact_title{grid-area: cntcttitle;justify-self:center;color: #f8f8f8;}
 #contact_images{ grid-area:cntctimages; justify-self: center; align-self: center;}
 #contact_images img{height:4em;margin-bottom: 40px;}
 p{/*background-color: #F8F8F8;*/}
