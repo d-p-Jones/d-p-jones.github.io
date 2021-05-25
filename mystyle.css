@@ -1,8 +1,18 @@
-/* f8f8f8,9893da,797a9e,72727e,625f63*/
+/*purples  f8f8f8,9893da,797a9e,72727e,625f63*/
+/*fresh #edf5e1,#8ee4af,#5cdb95,#379683,#05386b,*/
   
   @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap")
 
   :root{--NavBackground:#72727e;}
+
+  :root {
+  --whiteish: #f8f8f8;
+  --light: #9893da;
+  --medium: #797a9e;
+  --dark: #72727e;
+  --blackish: #625f63;
+
+}
 
   *, *::before, *:after {box-sizing: border-box;}
 
@@ -16,16 +26,16 @@
 
 /*--------------------------------------------------------------------  Navbar mobile view-------------------------------------------------------------------  */
 /*--------------------------------------------------------------------  Have a look for Kevin Powell --------------------------------------------------------------------  */
-
   header {
+
     grid-area: header;
-    background-color:#72727e;
+    background-color:var(--dark);
     text-align: center;
     position:fixed;
     width:100%;
     z-index: 999;
     margin:0;
-    box-shadow: 0px 1px 10px #625f63;
+    box-shadow: 0px 1px 10px var(--blackish);
   }
 
   .logo{height: 8vh;}
@@ -35,7 +45,7 @@ nav{
   position:absolute;
   text-align: left;
   top:100%;
-  background-color: #72727e;
+  background-color: var(--dark);
   left: 0;
   width: 100%;
   transform: scale(1,0);
@@ -65,7 +75,7 @@ nav a {
 }
 
 nav a:hover{
-  color: #9893da;
+  color: var(--light);
 }
 
 .nav_toggle:checked ~ nav{
@@ -136,7 +146,7 @@ body{
     ".  cntcttitle  ."
     ".  cntctimages .";
   grid-template-columns: 3% 94% 3%;
-  background-color: #F8F8F8;
+  background-color: var(--whiteish);
   margin:0;
 
 }
@@ -148,11 +158,14 @@ body{
 /*-------------------------------------------------------------------- landing page--------------------------------------------------------------------  */
 #intro{grid-area: header;}
 
+
+#landingbackground{grid-area: introtitle / introtitle /introlinks /introlinks; background-color: var(--whiteish);}
+
 #name1 {
   grid-area: introtitle;
   font-size: 50px;
   text-align: center;
-  color: #72727e;
+  color: var(--dark);
   justify-self: center;
   align-self: end;
   padding:20px;
@@ -168,7 +181,7 @@ body{
   padding:20px;
   margin:0;
   font-size: 30px;
-  color: #72727e;
+  color: var(--dark);
 }
 
 #links{
@@ -199,9 +212,9 @@ margin-top:50px;
 
 #Intro{height:60px;}
 
-#abtmebackground{grid-area: abtmetitle  / abtmetitle / abtmesvg / abtmesvg; background-color: #797a9e;}
-#about_me_title{ grid-area: abtmetitle; justify-self: center; padding-top: 80px; color: #f8f8f8; text-align: center;}
-#about_me_text{ grid-area:abtmetxt;justify-self: right;align-self:  center; padding:40px;color: #f8f8f8; font-size: 25px; text-align:  justify;}
+#abtmebackground{grid-area: abtmetitle  / abtmetitle / abtmesvg / abtmesvg; background-color: var(--medium);}
+#about_me_title{ grid-area: abtmetitle; justify-self: center; padding-top: 80px; color: var(--whiteish); text-align: center;}
+#about_me_text{ grid-area:abtmetxt;justify-self: right;align-self:  center; padding:40px;color: var(--whiteish); font-size: 25px; text-align:  justify;}
 #abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:center;}
 #timelinehorizon{display: none;}
 #timeline{solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
@@ -209,6 +222,8 @@ margin-top:50px;
 
 
 /*--------------------------------------------------------------------  portfolio section--------------------------------------------------------------------  */
+
+#portfoliobackground{grid-area: porttitle  / porttitle / portimages / portimages; background-color: var(--whiteish);}
 #portfolio_title{grid-area:porttitle;justify-self: center;padding-top: 80px;}
 #portimages{grid-area:portimages;justify-self: center;padding-bottom: 5vh;}
 #portimages object{width:90vw;}
@@ -223,8 +238,8 @@ margin-top:50px;
 
 
 
-#contact_background{grid-area: cntcttitle  / cntcttitle / cntctimages / cntctimages; background-color: #625f63;}
-#contact_title{grid-area: cntcttitle;justify-self:center;color: #f8f8f8;}
+#contact_background{grid-area: cntcttitle  / cntcttitle / cntctimages / cntctimages; background-color: var(--dark);}
+#contact_title{grid-area: cntcttitle;justify-self:center;color: var(--whiteish);}
 #contact_images{ grid-area:cntctimages; justify-self: center; align-self: center;}
 #contact_images img{height:4em;margin:5px;margin-bottom: 40px;}
 
@@ -268,6 +283,7 @@ margin-top:50px;
   padding: 0;
   }
 
+#landingbackground{grid-area: introtitle / introtitle /particles /particles;}
 /*--------------------------------------------------------------------About me section--------------------------------------------------------------------  */
 #abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:left;}
 #timelinehorizon{display:block;solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
@@ -339,7 +355,7 @@ margin-top:50px;
       content:'';
       display:block;
       height:5px;
-      background:#9893da;
+      background:var(--light);
       transform:scale(0,1);
       transform-origin: left;
       transition: transform ease-in-out 250ms;
@@ -358,7 +374,7 @@ margin-top:50px;
     }
 
     nav a:hover {
-      color:#9893da;
+      color:var(--light);
     }
 
 
