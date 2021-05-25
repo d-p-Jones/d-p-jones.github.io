@@ -297,7 +297,7 @@ margin-top:50px;
   }
 
 #abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:left;}
-#timelinehorizon{solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
+#timelinehorizon{display:block;solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
 #timeline{display: none;}
 #portimages object{width:30vw;}
 .portpics:hover{
