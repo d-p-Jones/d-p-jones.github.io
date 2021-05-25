@@ -14,6 +14,9 @@
   *, *::before, *:after {box-sizing: border-box;}
 
 
+/*--------------------------------------------------------------------  Navbar mobile view-------------------------------------------------------------------  */
+/*--------------------------------------------------------------------  Have a look for Kevin Powell --------------------------------------------------------------------  */
+
   header {
     grid-area: header;
     background-color:#72727e;
@@ -111,16 +114,7 @@ nav a:hover{
     transition: opacity 300ms ease-in-out 250ms;
   }
 
-/* End of Nav Styles */
-
-
-
-
-
-
-
-
-
+/*-------------------------------------------------------------------- End of Nav--------------------------------------------------------------------  */
 
 
 body{
@@ -150,10 +144,11 @@ body{
 
 .grid_container{display:grid;}
 
+
+/*-------------------------------------------------------------------- landing page--------------------------------------------------------------------  */
 #intro{grid-area: header;}
 
 #name1 {
-
   grid-area: introtitle;
   font-size: 50px;
   text-align: center;
@@ -164,7 +159,6 @@ body{
   padding-top:35vh;
   margin:0;
   border-bottom: 4px solid #72727e;
-  
 }
 
 #job{
@@ -178,35 +172,30 @@ body{
 }
 
 #links{
- 
-
   grid-area:introlinks;
   height: 40vh;
   justify-self: center;
-
 }
 
-#links img{
-  height: 4em;
-}
+#links img{height: 4em;}
 
-#mail_button:hover{
-  transform: scale(1.05,1.05); 
+#mail_button:hover{transform: scale(1.05,1.05);}
+#linkedin_button:hover{transform: scale(1.05,1.05);}
+#tableau_button:hover{transform: scale(1.05,1.05);}
+#github_button:hover{transform: scale(1.05,1.05);}
 
-}
+/* ---- particles.js container ---- */
 
-#linkedin_button:hover{
-  transform: scale(1.05,1.05); 
-
-}
-
-#tableau_button:hover{
-  transform: scale(1.05,1.05); 
-
-}
+#particles-js {
+margin-top:50px;
+    grid-area: introtitle / introtitle /introlinks /introlinks;
+  height: 90vh;
+   z-index: -1;
+  padding: 0;
+  }
 
 
-
+/*--------------------------------------------------------------------  About me section--------------------------------------------------------------------  */
 
 #Intro{height:60px;}
 
@@ -218,6 +207,8 @@ body{
 #timeline{solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
 
 
+
+/*--------------------------------------------------------------------  portfolio section--------------------------------------------------------------------  */
 #portfolio_title{grid-area:porttitle;justify-self: center;padding-top: 80px;}
 #portimages{grid-area:portimages;justify-self: center;padding-bottom: 5vh;}
 #portimages object{width:90vw;}
@@ -225,6 +216,11 @@ body{
 .portpics:hover{
 
 }
+
+
+
+/*--------------------------------------------------------------------  contact section--------------------------------------------------------------------  */
+
 
 
 #contact_background{grid-area: cntcttitle  / cntcttitle / cntctimages / cntctimages; background-color: #625f63;}
@@ -238,45 +234,7 @@ font-size: 50px;
 }
 
 
-
-/* ---- particles.js container ---- */
-
-#particles-js {
-margin-top:50px;
-    grid-area: introtitle / introtitle /introlinks /introlinks;
-  height: 90vh;
-   z-index: -1;
-  padding: 0;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*--------------------------------------------------------------------Responsive changes-------------------------------------------------------------------  */
 
 
 
@@ -301,7 +259,7 @@ margin-top:50px;
   /*grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;*/
   }
 
-
+/*--------------------------------------------------------------------Landing section--------------------------------------------------------------------  */
 #particles-js {
 margin-top:50px;
     grid-area: particles;
@@ -310,9 +268,13 @@ margin-top:50px;
   padding: 0;
   }
 
+/*--------------------------------------------------------------------About me section--------------------------------------------------------------------  */
 #abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:left;}
 #timelinehorizon{display:block;solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
 #timeline{display: none;}
+
+
+/*--------------------------------------------------------------------portfolio section--------------------------------------------------------------------  */
 #portimages {display: grid;align-items: start; align-self: start;justify-content: left; grid-auto-flow: column;}
 #portimages object{width:30vw; }
 .portpics:hover{
@@ -325,6 +287,12 @@ margin-top:50px;
 #pp3{transition:ease-in-out 250ms;transform-origin: top right;padding:0;}
 #pp3:hover{transform: scale(  2,2); z-index:  1; }
 #portimages{grid-area:portimages;justify-self: center;padding-bottom: 80vh;}
+
+
+
+
+/*--------------------------------------------------------------------Navigation bar--------------------------------------------------------------------  */
+/*-----------------------------------------------------------Have a look for Kevin Powell--------------------------------------------------------------  */
 
     .nav_toggle_label {
       display:none;
