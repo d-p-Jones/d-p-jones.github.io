@@ -232,7 +232,7 @@ body{
 #contact_background{grid-area: cntcttitle  / cntcttitle / cntctimages / cntctimages; background-color: #625f63;}
 #contact_title{grid-area: cntcttitle;justify-self:center;color: #f8f8f8;}
 #contact_images{ grid-area:cntctimages; justify-self: center; align-self: center;}
-#contact_images img{height:4em;margin-bottom: 40px;}
+#contact_images img{height:4em;margin:5px;margin-bottom: 40px;}
 p{/*background-color: #F8F8F8;*/}
 h1{
 color: #72727e;
