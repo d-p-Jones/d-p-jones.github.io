@@ -162,7 +162,6 @@ body{
   color: #72727e;
   justify-self: center;
   align-self: end;
-  align-text:bottom;
   padding:20px;
   padding-top:35vh;
   margin:0;
@@ -214,7 +213,7 @@ body{
 #Intro{height:60px;}
 
 #abtmebackground{grid-area: abtmetitle  / abtmetitle / abtmesvg / abtmesvg; background-color: #797a9e;}
-#about_me_title{ grid-area: abtmetitle; justify-self: center; padding-top: 80px; color: #f8f8f8; }
+#about_me_title{ grid-area: abtmetitle; justify-self: center; padding-top: 80px; color: #f8f8f8; text-align: center;}
 #about_me_text{ grid-area:abtmetxt;justify-self: right;align-self:  center; padding:40px;color: #f8f8f8; font-size: 25px; text-align:  justify;}
 #abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:center;}
 #timelinehorizon{display: none;}
