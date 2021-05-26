@@ -291,12 +291,86 @@ margin-top:50px;
 
 
 /*--------------------------------------------------------------------portfolio section--------------------------------------------------------------------  */
-#portimages {display: grid;align-items: start; align-self: start;justify-content: left; grid-auto-flow: column;}
+
+#portimages {display: grid; width:90vw;   grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:  "aa b c"
+                        "dd e f"
+  }
+
+
+  #pp1,#pp1overlay{grid-area: aa;}
+
+  #pp1overlay a{color: var(--blackish); text-decoration: none;}
+  #pp1:hover ~ #pp1overlay{transform:scale(1,1);}
+  #pp1overlay:hover{transform:scale(1,1);}
+
+  #pp2,#pp2overlay{grid-area: b;}
+  #pp2overlay a{color: var(--blackish); text-decoration: none;}
+  #pp2:hover ~ #pp2overlay{transform:scale(1,1);}
+  #pp2overlay:hover{transform:scale(1,1);}
+
+
+  #pp3,#pp3overlay{grid-area: c;}
+  #pp3overlay a{color: var(--blackish); text-decoration: none;}
+  #pp3:hover ~ #pp3overlay{transform:scale(1,1);}
+  #pp3overlay:hover{transform:scale(1,1);}
+
+
+
+
+
+
+
+
+   .ppoverlay{
+    display:grid;
+    background-color:#9893da44;
+    transform:scale(1,0);
+    transform-origin: bottom;
+    transition:ease-in-out 250ms;
+    opacity:0.95;
+    align-content: center;
+    border-radius: 5px;
+  }
+
+  .overlaytext{ display: grid;
+    color: var(--blackish);
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  vertical-align: middle;
+  background-color: var(--whiteish);
+  border-radius: 20px;
+  height: 30vh;
+  opacity:1;
+  padding:50px;
+}
+
+  #pp1overlay a{color: var(--blackish); text-decoration: none;}
+
+
+  #pp1:hover ~ #pp1overlay{transform:scale(1,1);}
+  #pp1overlay:hover{transform:scale(1,1);}
+
+#portimages a{width:25vw; justify-self:center;align-self:center;}
+#portimages object{width:25vw; }
+
+
+
+
+
+
+
+/*#portimages {display: grid; width:1080px; height:3000px;align-items: start; align-self: start;justify-content: left; grid-auto-flow: column; grid-template-columns: 30% 30% 30%; column-gap:4%;}
+#portimages a{width:30vw; }
 #portimages object{width:30vw; }
 .portpics:hover{
   transform: scale(  3,3);
   z-index:  1;
-}
+}*/
+
+/*
 #pp1{align-self: start;transition:ease-in-out 250ms;transform-origin: top left;padding:0;}
 #pp2{transition:ease-in-out 250ms;transform-origin: top ;padding:0;}
 #pp2:hover{   transform: scale(  2,2);   z-index:  1; }
@@ -304,7 +378,7 @@ margin-top:50px;
 #pp3:hover{transform: scale(  2,2); z-index:  1; }
 #portimages{grid-area:portimages;justify-self: center;padding-bottom: 80vh;}
 
-
+*/
 
 
 /*--------------------------------------------------------------------Navigation bar--------------------------------------------------------------------  */
