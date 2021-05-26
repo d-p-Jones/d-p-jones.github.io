@@ -232,6 +232,20 @@ margin-top:50px;
 
 }
 
+  .ppoverlay a{color: var(--blackish); text-decoration: none;}
+  .overlaytext{ display: grid;
+    color: var(--blackish);
+  font-size: 20px;
+  text-align: justify;
+  align-content: center;
+  vertical-align: middle;
+  background-color: var(--whiteish);
+  border-radius: 20px;
+  opacity:1;
+  padding:10px;
+  padding-bottom:40px;
+  margin-bottom:20px;
+}
 
 
 /*--------------------------------------------------------------------  contact section--------------------------------------------------------------------  */
@@ -285,7 +299,7 @@ margin-top:50px;
 
 #landingbackground{grid-area: introtitle / introtitle /particles /particles;}
 /*--------------------------------------------------------------------About me section--------------------------------------------------------------------  */
-#abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:left;}
+#abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:left;align-self:center;}
 #timelinehorizon{display:block;solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
 #timeline{display: none;}
 
