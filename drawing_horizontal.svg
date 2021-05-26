@@ -783,9 +783,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="489.72534"
-     inkscape:cy="357.04478"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1269.4376"
+     inkscape:cy="202.40405"
      inkscape:document-units="mm"
      inkscape:current-layer="g1293"
      showgrid="false"
@@ -851,25 +851,25 @@
       <rect
          ry="7.0787082"
          y="138.47105"
-         x="3.8942595"
+         x="3.8942587"
          height="23.056549"
          width="91.470238"
          id="rect1230-21-5-0"
          style="opacity:1;fill:#f8f8f8;fill-opacity:1;stroke:none;stroke-width:0.80680668;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3.02740145;stroke-opacity:1;filter:url(#filter2182-18-6-7)" />
       <text
          id="text828-1-5-4"
-         y="149.70592"
-         x="91.072685"
+         y="148.24854"
+         x="49.658318"
          style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20330247"
          xml:space="preserve"><tspan
-           style="text-align:end;text-anchor:end;stroke-width:0.20330247"
-           y="149.70592"
-           x="91.072685"
+           style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
+           y="148.24854"
+           x="49.658318"
            sodipodi:role="line"
            id="tspan1517-2-1">2006 BEng Aerospace Engineering</tspan><tspan
-           style="text-align:end;text-anchor:end;stroke-width:0.20330247"
-           y="155.87953"
-           x="91.072685"
+           style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
+           y="154.42215"
+           x="49.658318"
            sodipodi:role="line"
            id="tspan1521-5-0">The University of Sheffield</tspan></text>
       <path
@@ -914,34 +914,34 @@
          style="opacity:1;fill:#f8f8f8;fill-opacity:1;stroke:none;stroke-width:0.80680668;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3.02740145;stroke-opacity:1;filter:url(#filter2182-18-6)" />
       <text
          id="text828-1-5-6"
-         y="186.28181"
-         x="292.15677"
+         y="186.69943"
+         x="292.18246"
          style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20330247"
          xml:space="preserve"><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
-           y="186.28181"
-           x="292.15677"
+           y="186.69943"
+           x="292.18246"
            sodipodi:role="line"
            id="tspan1517-2-3">2014 Excel VBA Developer</tspan><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
-           y="192.45543"
-           x="292.15677"
+           y="192.87305"
+           x="292.18246"
            sodipodi:role="line"
            id="tspan1521-5-2">Gloucestershire NHS Trust</tspan></text>
       <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
          id="path1457-3-7"
-         d="m 100.51755,169.68471 v 21.66725"
+         d="m 97.533228,169.68471 v 21.66725"
          style="opacity:1;fill:none;fill-opacity:1;stroke:#625f63;stroke-width:0.23051621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
-         d="m -168.26623,100.4907 a 1.4565028,1.8320107 0 0 1 -1.45629,1.83201 1.4565028,1.8320107 0 0 1 -1.45672,-1.83147 1.4565028,1.8320107 0 0 1 1.45586,-1.832551 1.4565028,1.8320107 0 0 1 1.45715,1.830921"
+         d="m -168.26623,97.506386 a 1.4565028,1.8320107 0 0 1 -1.45629,1.832011 1.4565028,1.8320107 0 0 1 -1.45672,-1.831468 1.4565028,1.8320107 0 0 1 1.45586,-1.832554 1.4565028,1.8320107 0 0 1 1.45715,1.830924"
          sodipodi:open="true"
          sodipodi:end="6.2825919"
          sodipodi:start="0"
          sodipodi:ry="1.8320107"
          sodipodi:rx="1.4565028"
-         sodipodi:cy="100.4907"
+         sodipodi:cy="97.506386"
          sodipodi:cx="-169.72273"
          sodipodi:type="arc"
          id="path1459-7"
@@ -950,7 +950,7 @@
       <rect
          ry="7.0787082"
          y="176.41916"
-         x="53.973049"
+         x="50.988735"
          height="23.056549"
          width="91.470238"
          id="rect1230-2-4-3-6"
@@ -958,7 +958,7 @@
       <rect
          ry="7.0787082"
          y="176.41914"
-         x="53.973034"
+         x="50.98872"
          height="23.056549"
          width="91.470238"
          id="rect1230-21-5-2"
@@ -993,25 +993,25 @@
       <rect
          ry="7.0787082"
          y="138.47105"
-         x="100.88479"
+         x="100.88477"
          height="23.056549"
          width="91.470238"
          id="rect1230-21-5-5"
          style="opacity:1;fill:#f8f8f8;fill-opacity:1;stroke:none;stroke-width:0.80680668;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3.02740145;stroke-opacity:1;filter:url(#filter2182-18-6-6)" />
       <text
          id="text828-1-5-97"
-         y="149.38068"
-         x="145.29381"
+         y="148.24854"
+         x="146.69347"
          style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20330247"
          xml:space="preserve"><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
-           y="149.38068"
-           x="145.29381"
+           y="148.24854"
+           x="146.69347"
            sodipodi:role="line"
            id="tspan1517-2-7">2012 BSc Open</tspan><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
-           y="155.55429"
-           x="145.29381"
+           y="154.42215"
+           x="146.69347"
            sodipodi:role="line"
            id="tspan1521-5-5">The Open University</tspan></text>
       <path
@@ -1051,18 +1051,18 @@
          style="opacity:1;fill:#f8f8f8;fill-opacity:1;stroke:none;stroke-width:0.80680668;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3.02740145;stroke-opacity:1;filter:url(#filter2182-18-6-61)" />
       <text
          id="text828-1-5-9"
-         y="149.31396"
-         x="242.46967"
+         y="148.29195"
+         x="243.48985"
          style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20330247"
          xml:space="preserve"><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
-           y="149.31396"
-           x="242.46967"
+           y="148.29195"
+           x="243.48985"
            sodipodi:role="line"
            id="tspan1517-2-6">2013 MRes Nanotechnology</tspan><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
-           y="155.48758"
-           x="242.46967"
+           y="154.46556"
+           x="243.48985"
            sodipodi:role="line"
            id="tspan1521-5-76">Swansea University</tspan></text>
       <path
@@ -1102,18 +1102,18 @@
          style="opacity:1;fill:#f8f8f8;fill-opacity:1;stroke:none;stroke-width:0.80680668;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3.02740145;stroke-opacity:1;filter:url(#filter2182-18-6-9)" />
       <text
          id="text828-1-5-3"
-         y="148.45522"
-         x="340.25906"
+         y="148.29195"
+         x="340.48883"
          style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20330247"
          xml:space="preserve"><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
-           y="148.45522"
-           x="340.25906"
+           y="148.29195"
+           x="340.48883"
            sodipodi:role="line"
            id="tspan1521-5-4">2020 PhD Chemistry</tspan><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
-           y="154.62883"
-           x="340.25906"
+           y="154.46556"
+           x="340.48883"
            sodipodi:role="line"
            id="tspan1147">University of St Andrews</tspan></text>
       <path
@@ -1154,33 +1154,33 @@
       <text
          id="text828-1-5"
          y="147.95273"
-         x="438.70374"
+         x="437.57339"
          style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20330247"
          xml:space="preserve"><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
            y="147.95273"
-           x="438.70374"
+           x="437.57339"
            sodipodi:role="line"
            id="tspan1517-2">2021</tspan><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
            y="154.12634"
-           x="438.70374"
+           x="437.57339"
            sodipodi:role="line"
            id="tspan1521-5">Google Data Analytics Certificate</tspan></text>
       <text
          id="text828-1-5-1"
-         y="185.8224"
-         x="100.42255"
+         y="186.24004"
+         x="96.522469"
          style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20330247"
          xml:space="preserve"><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
-           y="185.8224"
-           x="100.42255"
+           y="186.24004"
+           x="96.522469"
            sodipodi:role="line"
-           id="tspan1517-2-0">2010-2011 Project Controller</tspan><tspan
+           id="tspan1517-2-0">2011 Project Controller</tspan><tspan
            style="text-align:center;text-anchor:middle;stroke-width:0.20330247"
-           y="191.99602"
-           x="100.42255"
+           y="192.41365"
+           x="96.522469"
            sodipodi:role="line"
            id="tspan1521-5-54">Airbus/GKN Aerospace</tspan></text>
     </g>
