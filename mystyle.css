@@ -6,6 +6,7 @@
   :root{--NavBackground:#72727e;}
 
   :root {
+  --whiteishopacity: #f8f8f833;  
   --whiteish: #f8f8f8;
   --light: #9893da;
   --medium: #797a9e;
@@ -99,12 +100,16 @@ nav a:hover{
 .nav_toggle_label span::before,
 .nav_toggle_label span::after {
   display: block;
-  background: white;
+  background: var(--whiteish);
   height: 0.5vh;
   width: 6vw;
   border-radius: 2px;
   position:relative;
 }
+
+.nav_toggle:checked ~ .nav_toggle_label span::before{transform:translate(0,1vh) rotate(45deg) scale(80%); transition:ease-in-out 100ms;}
+.nav_toggle:checked ~ .nav_toggle_label span::after{transform:translate(0,-1vh) rotate(-45deg) scale(80%);transition: 50ms ease-in-out 50ms;}
+.nav_toggle:checked ~ .nav_toggle_label span{background :var(--dark);}
 
 .nav_toggle_label span::before,
 .nav_toggle_label span::after {
@@ -159,7 +164,7 @@ body{
 #intro{grid-area: header;}
 
 
-#landingbackground{grid-area: introtitle / introtitle /introlinks /introlinks; background-color: var(--whiteish);}
+#landingbackground{grid-area: introtitle / introtitle /introlinks /introlinks; background-color: var(--whiteishopacity);}
 
 #name1 {
   grid-area: introtitle;
