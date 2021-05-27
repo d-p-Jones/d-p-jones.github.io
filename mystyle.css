@@ -271,7 +271,6 @@ font-size: 50px;
 /*--------------------------------------------------------------------Responsive changes-------------------------------------------------------------------  */
 
 
-
 @media (orientation: landscape) {
   body {
     display: grid;
@@ -473,3 +472,13 @@ margin-top:50px;
 
 
     }
+
+
+
+     @media (orientation:landscape) and (max-width: 1400px) {
+      #about_me_text{ grid-area:abme1/abme1/abtmetxt/abtmetxt;font-size:20px;}
+    }
+
+
+
+
