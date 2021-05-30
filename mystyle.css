@@ -115,19 +115,20 @@ nav a:hover{
 .nav_toggle_label span::after {
   content:'';
   position: absolute;
-  }
+}
 
-  .nav_toggle_label span::before {
-    bottom:1vh;
-  }
-    .nav_toggle_label span::after {
-    top:1vh;
-  }
+.nav_toggle_label span::before {
+  bottom:1vh;
+}
 
-  .nav_toggle:checked ~ nav a {
-    opacity: 1;
-    transition: opacity 300ms ease-in-out 250ms;
-  }
+.nav_toggle_label span::after {
+  top:1vh;
+}
+
+.nav_toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out 250ms;
+}
 
 /*-------------------------------------------------------------------- End of Nav--------------------------------------------------------------------  */
 
@@ -263,8 +264,8 @@ margin-top:50px;
 #contact_images img{height:4em;margin:5px;margin-bottom: 40px;}
 
 h1{
-color: #72727e;
-font-size: 50px;
+  color: #72727e;
+  font-size: 50px;
 }
 
 
@@ -288,60 +289,86 @@ font-size: 50px;
     "cntcttitle   cntcttitle  cntcttitle  cntcttitle"
     "cntctimages  cntctimages cntctimages cntctimages";
   
-  grid-template-columns: 20% 15% 15% 50%;
-  /*grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;*/
+    grid-template-columns: 20% 15% 15% 50%;
   }
 
 /*--------------------------------------------------------------------Landing section--------------------------------------------------------------------  */
 #particles-js {
-margin-top:50px;
+    margin-top:50px;
     grid-area: particles;
-  height: 90vh;
-   z-index: 0;
-  padding: 0;
+    height: 90vh;
+    z-index: 0;
+    padding: 0;
   }
 
 #landingbackground{grid-area: introtitle / introtitle /particles /particles;}
+
 /*--------------------------------------------------------------------About me section--------------------------------------------------------------------  */
-#abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:left;align-self:center;}
-#timelinehorizon{display:block;solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
+
+#abtmeimg{
+  grid-area: abtmeimg; 
+  height:50vh;
+  border-radius: 50%;
+  padding:40px;
+  justify-self:left;
+  align-self:center;
+}
+#timelinehorizon{
+  display:block;
+  grid-area:abtmesvg; 
+  width: 90%;
+  justify-self:center;
+}
+
 #timeline{display: none;}
 
 
 /*--------------------------------------------------------------------portfolio section--------------------------------------------------------------------  */
 
-#portimages {display: grid; width:90vw;   grid-template-columns: auto auto auto;
+#portimages {
+  display: grid; 
+  width:90vw;   
+  grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;
   grid-template-areas:  "aa b c"
                         "dd e f"
   }
 
 
-  #pp1,#pp1overlay{grid-area: aa;}
+  #pp1,#pp1overlay{
+    grid-area: aa;
+  }
 
-  #pp1overlay a{color: var(--blackish); text-decoration: none;}
+  #pp1overlay a{
+    color: var(--blackish);
+    text-decoration: none;
+  }
   #pp1:hover ~ #pp1overlay{transform:scale(1,1);}
   #pp1overlay:hover{transform:scale(1,1);}
 
   #pp2,#pp2overlay{grid-area: b;}
-  #pp2overlay a{color: var(--blackish); text-decoration: none;}
+  #pp2overlay a{
+    color: var(--blackish); 
+    text-decoration: none;
+  }
   #pp2:hover ~ #pp2overlay{transform:scale(1,1);}
+
   #pp2overlay:hover{transform:scale(1,1);}
 
 
   #pp3,#pp3overlay{grid-area: c;}
-  #pp3overlay a{color: var(--blackish); text-decoration: none;}
+
+  #pp3overlay a{
+    color: var(--blackish); 
+    text-decoration: none;
+  }
+
   #pp3:hover ~ #pp3overlay{transform:scale(1,1);}
+
   #pp3overlay:hover{transform:scale(1,1);}
 
 
-
-
-
-
-
-
-   .ppoverlay{
+  .ppoverlay{
     display:grid;
     background-color:#9893da44;
     transform:scale(1,0);
@@ -354,130 +381,114 @@ margin-top:50px;
 
   .overlaytext{ display: grid;
     color: var(--blackish);
-  font-size: 20px;
-  text-align: center;
-  align-content: center;
-  vertical-align: middle;
-  background-color: var(--whiteish);
-  border-radius: 20px;
-  height: 30vh;
-  opacity:1;
-  padding:50px;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+    background-color: var(--whiteish);
+    border-radius: 20px;
+    height: 30vh;
+    opacity:1;
+    padding:50px;
 }
 
-  #pp1overlay a{color: var(--blackish); text-decoration: none;}
+  #pp1overlay a{
+    color: var(--blackish); 
+    text-decoration: none;
+  }
 
 
   #pp1:hover ~ #pp1overlay{transform:scale(1,1);}
+
   #pp1overlay:hover{transform:scale(1,1);}
 
-#portimages a{width:25vw; justify-self:center;align-self:center;}
-#portimages object{width:25vw; }
+  #portimages a{
+    width:25vw; 
+    justify-self:center;
+    align-self:center;
+  }
 
-
-
-
-
-
-
-/*#portimages {display: grid; width:1080px; height:3000px;align-items: start; align-self: start;justify-content: left; grid-auto-flow: column; grid-template-columns: 30% 30% 30%; column-gap:4%;}
-#portimages a{width:30vw; }
-#portimages object{width:30vw; }
-.portpics:hover{
-  transform: scale(  3,3);
-  z-index:  1;
-}*/
-
-/*
-#pp1{align-self: start;transition:ease-in-out 250ms;transform-origin: top left;padding:0;}
-#pp2{transition:ease-in-out 250ms;transform-origin: top ;padding:0;}
-#pp2:hover{   transform: scale(  2,2);   z-index:  1; }
-#pp3{transition:ease-in-out 250ms;transform-origin: top right;padding:0;}
-#pp3:hover{transform: scale(  2,2); z-index:  1; }
-#portimages{grid-area:portimages;justify-self: center;padding-bottom: 80vh;}
-
-*/
+  #portimages object{width:25vw; }
 
 
 /*--------------------------------------------------------------------Navigation bar--------------------------------------------------------------------  */
 /*-----------------------------------------------------------Have a look for Kevin Powell--------------------------------------------------------------  */
 
-    .nav_toggle_label {
-      display:none;
-    }
+  .nav_toggle_label {
+    display:none;
+  }
 
 
-    nav{
-      display:grid;
-      all:unset;
-      grid-area: navbar1;    
-      align-items: center;
-    }
-
-    nav ul{
-      display: grid;
-         justify-content: end;
-     align-content: center;
-
-  gap: 4px;
-  grid-auto-flow: column;
-    }
-    header{ display:grid; grid-area: header;     
-      grid-template-areas:
-    ". logo navbar1 .";
-    grid-template-columns: 5% auto 1fr 5%;
-    
+  nav{
+    display:grid;
+    all:unset;
+    grid-area: navbar1;    
     align-items: center;
   }
 
+  nav ul{
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    gap: 4px;
+    grid-auto-flow: column;
+  }
+  header{ 
+    display:grid; 
+    grid-area: header;     
+    grid-template-areas:
+    ". logo navbar1 .";
+    grid-template-columns: 5% auto 1fr 5%;
+    align-items: center;
+  }
+
+
   nav li{margin-bottom:0;}
-    header h1{display:grid; grid-area: logo; margin:0; width: auto; color: black;}
+  
+  header h1{
+    display:grid; 
+    grid-area: logo; 
+    margin:0; 
+    width: auto; 
+    color: black;
+  }
    
 
 
-    nav a{
-      opacity: 1;
-      font-size: 20px;
-      
- 
-    }
-    /*nav li{float: right;margin-bottom: auto; margin-top: auto;}*/
-    
-    nav a::after{
-      content:'';
-      display:block;
-      height:5px;
-      background:var(--light);
-      transform:scale(0,1);
-      transform-origin: left;
-      transition: transform ease-in-out 250ms;
+  nav a{
+    opacity: 1;
+    font-size: 20px;
+  }
 
-    }
-    nav a::before{
-      content:'';
-      display:block;
-      /*height:5px;
-      background:green;}*/
+  
+  nav a::after{
+    content:'';
+    display:block;
+    height:5px;
+    background:var(--light);
+    transform:scale(0,1);
+    transform-origin: left;
+    transition: transform ease-in-out 250ms;
+  }
 
-    }
+  nav a::before{
+    content:'';
+    display:block;
+  }
 
-    nav a:hover::after{
-      transform: scale(1,1);
-    }
+  nav a:hover::after{
+    transform: scale(1,1);
+  }
 
-    nav a:hover {
-      color:var(--light);
-    }
+  nav a:hover {
+    color:var(--light);
+  }
 
+}
 
-
-    }
-
-
-
-     @media (orientation:landscape) and (max-width: 1400px) {
-      #about_me_text{ grid-area:abme1/abme1/abtmetxt/abtmetxt;font-size:20px;}
-    }
+@media (orientation:landscape) and (max-width: 1400px) {
+  #about_me_text{ grid-area:abme1/abme1/abtmetxt/abtmetxt;font-size:20px;}
+}
 
 
 
