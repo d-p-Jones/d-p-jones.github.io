@@ -233,7 +233,7 @@ margin-top:50px;
 #portfolio_title{grid-area:porttitle;justify-self: center;padding-top: 80px;}
 #portimages{grid-area:portimages;justify-self: center;padding-bottom: 5vh;}
 #portimages object{width:90vw;}
-#pp1,#pp2,#pp3 {padding: 2%;}
+#pp1,#pp2,#pp3,#pp4 {padding: 2%;}
 .portpics:hover{
 
 }
