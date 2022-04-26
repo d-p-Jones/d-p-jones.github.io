@@ -253,6 +253,13 @@ margin-top:50px;
   margin-bottom:20px;
 }
 
+#iframe1{
+
+    position: relative;
+    
+    width: 100%; 
+
+  }
 
 /*--------------------------------------------------------------------  contact section--------------------------------------------------------------------  */
 
@@ -369,13 +376,7 @@ h1{
 
   #pp4,#pp4overlay{grid-area: dd;}
 
-  #iframe1{
-
-    position: relative;
-    height: 100%;
-    width: 100%; 
-}
-  }
+  
 
 
   .ppoverlay{
@@ -418,7 +419,7 @@ h1{
     align-self:center;
   }
 
-  #portimages object{width:25vw; }
+  #portimages object{width:25vw;}
 
 
 /*--------------------------------------------------------------------Navigation bar--------------------------------------------------------------------  */
