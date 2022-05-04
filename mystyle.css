@@ -142,13 +142,13 @@ body{
     ".  introtitle  ."
     ".  introjob    ."
     ".  introlinks  ."
+    ".  porttitle   ."
+    ".  portimages  ."
     ".  abtmetitle  ."
     ".  abme1       ."
     ".  abtmetxt    ."
     ".  abtmeimg    ."
     ".  abtmesvg    ."
-    ".  porttitle   ."
-    ".  portimages  ."
     ".  cntcttitle  ."
     ".  cntctimages .";
   grid-template-columns: 3% 94% 3%;
@@ -218,9 +218,9 @@ margin-top:50px;
 
 #Intro{height:60px;}
 
-#abtmebackground{grid-area: abtmetitle  / abtmetitle / abtmesvg / abtmesvg; background-color: var(--medium);}
-#about_me_title{ grid-area: abtmetitle; justify-self: center; padding-top: 80px; color: var(--whiteish); text-align: center;}
-#about_me_text{ grid-area:abtmetxt;justify-self: right;align-self:  center; padding:40px;color: var(--whiteish); font-size: 25px; text-align:  justify;}
+#abtmebackground{grid-area: abtmetitle  / abtmetitle / abtmesvg / abtmesvg; background-color: var(--whiteish);}
+#about_me_title{ grid-area: abtmetitle; justify-self: center; padding-top: 40px; color: var(--dark); text-align: center;}
+#about_me_text{ grid-area:abtmetxt;justify-self: right;align-self:  center; padding:40px;color: var(--dark); font-size: 25px; text-align:  justify;}
 #abtmeimg{ grid-area: abtmeimg; height:50vh;border-radius: 50%;padding:40px;justify-self:center;}
 #timelinehorizon{display: none;}
 #timeline{solid;grid-area:abtmesvg; width: 90%;justify-self:center;}
@@ -229,23 +229,23 @@ margin-top:50px;
 
 /*--------------------------------------------------------------------  portfolio section--------------------------------------------------------------------  */
 
-#portfoliobackground{grid-area: porttitle  / porttitle / portimages / portimages; background-color: var(--whiteish);}
-#portfolio_title{grid-area:porttitle;justify-self: center;padding-top: 80px;}
+#portfoliobackground{grid-area: porttitle  / porttitle / portimages / portimages; background-color: var(--medium);}
+#portfolio_title{grid-area:porttitle;justify-self: center;padding-top: 40px; color: var(--whiteish); text-align: center;}
 #portimages{grid-area:portimages;justify-self: center;padding-bottom: 5vh;}
-#portimages object{width:90vw;}
-#pp1,#pp2,#pp3,#pp4 {padding: 2%;}
+#portimages object{width:92vw;}
+#pp1,#pp2,#pp3,#pp4 {}
 .portpics:hover{
 
 }
 
   .ppoverlay a{color: var(--blackish); text-decoration: none;}
   .overlaytext{ display: grid;
-    color: var(--blackish);
+    color: var(--whiteish);
   font-size: 20px;
   text-align: justify;
   align-content: center;
   vertical-align: middle;
-  background-color: var(--whiteish);
+  background-color: none;
   border-radius: 20px;
   opacity:1;
   padding:10px;
@@ -257,7 +257,8 @@ margin-top:50px;
 
     position: relative;
     
-    width: 100%; 
+    width: 92vw;
+    height: 60vw; 
 
   }
 
@@ -288,11 +289,11 @@ h1{
     "introtitle   introtitle  particles   particles"
     "introjob     introjob    particles   particles"
     "introlinks   introlinks  particles   particles"
+    "porttitle    porttitle   porttitle   porttitle"
+    "portimages   portimages  portimages  portimages"
     "abtmetitle   abtmetitle  abtmetitle  abtmetitle"
     "abme1        abtmetxt    abtmetxt    abtmeimg"
     "abtmesvg     abtmesvg    abtmesvg    abtmesvg"
-    "porttitle    porttitle   porttitle   porttitle"
-    "portimages   portimages  portimages  portimages"
     "cntcttitle   cntcttitle  cntcttitle  cntcttitle"
     "cntctimages  cntctimages cntctimages cntctimages";
   
@@ -414,13 +415,27 @@ h1{
   #pp1overlay:hover{transform:scale(1,1);}
 
   #portimages a{
-    width:25vw; 
+    width:23vw; 
     justify-self:center;
     align-self:center;
   }
 
-  #portimages object{width:25vw;}
+  #portimages object{
+    
+    width:23vw; 
+    justify-self:center;
+    align-self:center;
+  }
 
+#iframe1{
+
+    padding: 2%;
+
+    
+    width: 83vw;
+    height: 60vw; 
+
+  }
 
 /*--------------------------------------------------------------------Navigation bar--------------------------------------------------------------------  */
 /*-----------------------------------------------------------Have a look for Kevin Powell--------------------------------------------------------------  */
